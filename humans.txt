@@ -1,0 +1,20 @@
+/* AUTHOR */
+
+	Name 		: Mustapha Alaouy
+	Role 		: Front/Back End Developer
+	Twitter	: @alaouym
+	EMail		: alaouym[at]gmail.com
+	Site  	: alaouy.com
+	From 		: Fez, Morocco
+	
+
+/* TECHNOLOGY */
+
+	HTML5, CSS3, Bootstrap, Boilerplate, jQuery, GruntJS
+	IDE: Sublime Text, FileZilla, Photoshop, Illustrator
+
+
+/* THANKS */
+
+	Credits for the logo goes to : Andy Beckmann
+		http://dribbble.com/shots/1164252-Letter-A-Logo

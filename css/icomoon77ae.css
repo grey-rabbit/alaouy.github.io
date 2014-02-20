@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../fonts/icomoon.eot');
+	src:url('../../fonts/icomoond41d.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/icomoon.woff') format('woff'),
+		url('../../fonts/icomoon.ttf') format('truetype'),
+		url('../../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icomoon-"] {
+*/
+.icomoon-home, .icomoon-profile, .icomoon-envelop, .icomoon-location, .icomoon-user, .icomoon-user-2, .icomoon-facebook, .icomoon-twitter, .icomoon-linkedin, .icomoon-delicious, .icomoon-folder, .icomoon-pencil, .icomoon-code, .icomoon-screen, .icomoon-laptop, .icomoon-mobile, .icomoon-tablet, .icomoon-bars, .icomoon-rocket, .icomoon-arrow-right, .icomoon-arrow-right-2, .icomoon-arrow-left, .icomoon-cancel-circle, .icomoon-phone, .icomoon-stopwatch, .icomoon-coin, .icomoon-globe, .icomoon-mail, .icomoon-instagram, .icomoon-foursquare, .icomoon-mail-2, .icomoon-arrow-up, .icomoon-arrow-down {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icomoon-home:before {
+	content: "\e000";
+}
+.icomoon-profile:before {
+	content: "\e001";
+}
+.icomoon-envelop:before {
+	content: "\e002";
+}
+.icomoon-location:before {
+	content: "\e003";
+}
+.icomoon-user:before {
+	content: "\e004";
+}
+.icomoon-user-2:before {
+	content: "\e005";
+}
+.icomoon-facebook:before {
+	content: "\e006";
+}
+.icomoon-twitter:before {
+	content: "\e007";
+}
+.icomoon-linkedin:before {
+	content: "\e008";
+}
+.icomoon-delicious:before {
+	content: "\e009";
+}
+.icomoon-folder:before {
+	content: "\e00b";
+}
+.icomoon-pencil:before {
+	content: "\e00a";
+}
+.icomoon-code:before {
+	content: "\e00c";
+}
+.icomoon-screen:before {
+	content: "\e00d";
+}
+.icomoon-laptop:before {
+	content: "\e00e";
+}
+.icomoon-mobile:before {
+	content: "\e00f";
+}
+.icomoon-tablet:before {
+	content: "\e010";
+}
+.icomoon-bars:before {
+	content: "\e011";
+}
+.icomoon-rocket:before {
+	content: "\e012";
+}
+.icomoon-arrow-right:before {
+	content: "\e013";
+}
+.icomoon-arrow-right-2:before {
+	content: "\e014";
+}
+.icomoon-arrow-left:before {
+	content: "\e015";
+}
+.icomoon-cancel-circle:before {
+	content: "\e016";
+}
+.icomoon-phone:before {
+	content: "\e017";
+}
+.icomoon-stopwatch:before {
+	content: "\e018";
+}
+.icomoon-coin:before {
+	content: "\e019";
+}
+.icomoon-globe:before {
+	content: "\e01a";
+}
+.icomoon-mail:before {
+	content: "\e01b";
+}
+.icomoon-instagram:before {
+	content: "\e01c";
+}
+.icomoon-foursquare:before {
+	content: "\e01d";
+}
+.icomoon-mail-2:before {
+	content: "\e01e";
+}
+.icomoon-arrow-up:before {
+	content: "\e01f";
+}
+.icomoon-arrow-down:before {
+	content: "\e020";
+}
