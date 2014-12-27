@@ -298,6 +298,10 @@ $("#chainId").fadeOut().slideDown().hide().fadeIn("fast");
 		/*
 		 * TODO: When someone clicks the button with id boxButtonId, make the div with id boxId fade in and out
 		 */
+		 
+		 $('#boxButtonId').click(function () {
+		 		$('#boxId').toggle();
+		 });
 	</script>
 	
 	<div class="slide">
@@ -366,6 +370,28 @@ $("#mouseId").mousemove(action);
 		 * TODO: Use jQuery to send a GET request to the forecast.io weather API
 		 * of all the food items that are for lunch today into the mealInfoId div.
 		 */
+
+		 $("#weatherButtonId").click(function  () {
+		 		$.ajax({
+		 	url: "https://api.forecast.io/forecast/e4b01a06209fc0ceac2bd3d9339560ad/34.247880,-6.584017",
+		 	dataType: "jsonp",
+			success: function(data){
+					$("#weatherInfoId").append(data.timezone);
+					$("#weatherInfoId").append("<br>");
+					$("#weatherInfoId").append("Summary:" + data.currently.summary);
+					$("#weatherInfoId").append("<br>");
+					$("#weatherInfoId").append("Temperature : " + data.currently.temperature);
+					$("#weatherInfoId").append("<br>");
+					$("#weatherInfoId").append("Humidity : " + data.currently.humidity);
+					$("#weatherInfoId").append("<br>");
+
+		 	}
+		});
+		 });
+
+		 
+
+
 	</script>
 	
 	<div class="slide">
